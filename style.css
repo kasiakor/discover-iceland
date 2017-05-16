@@ -1,24 +1,29 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    margin-top: 90px;
 }
 
 .navbar {
     margin-bottom: 0px;
-    padding: 30px 30px;
+    padding: 30px 15px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-}
-
-.cbp-af-header {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    opacity: 0.9;
 }
 
 .navbar-inverse .navbar-nav>li>a {
     color: #bbb;
 }
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
+}
+
 
 footer {
     background-color: #333;
