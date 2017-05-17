@@ -14,8 +14,21 @@ body {
 }
 
 .fill-screen {
-    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .fill-screen {
+         background-attachment: scroll;  
+    }
+}
+
+.content-filler {
+    min-height: 350px;
 }
 
 .cbp-af-header-shrink {
@@ -23,7 +36,6 @@ body {
     padding-bottom: 5px;
     opacity: 0.9;
 }
-
 
 footer {
     background-color: #333;
