@@ -4,7 +4,7 @@ body {
 
 .navbar {
     margin-bottom: 0px;
-    padding: 30px 15px;
+    padding: 17px 15px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -13,8 +13,34 @@ body {
     color: #bbb;
 }
 
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+
+.title-image {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -70%;
+    -webkit-transform: (-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.down-button i {
+    color: white;
+}
+
 .fill-screen {
-    min-height: 500px;
+    min-height: 900px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,10 +51,6 @@ body {
     .fill-screen {
          background-attachment: scroll;  
     }
-}
-
-.content-filler {
-    min-height: 350px;
 }
 
 .cbp-af-header-shrink {
