@@ -13,11 +13,6 @@ body {
     color: #bbb;
 }
 
-.title-row {
-    position: relative;
-    min-height: 300px;
-}
-
 .title-image {
     position: absolute;
     padding: 20px;
