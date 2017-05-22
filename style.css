@@ -51,6 +51,11 @@ body {
     font-size: 20px;
 }
 
+.activity-element {
+    text-align: center;
+    padding-top: 40px;
+}
+
 #carousel {
     margin: 40px 0;
 }
