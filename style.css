@@ -34,6 +34,15 @@ body {
     color: white;
 }
 
+#carousel {
+    margin: 40px 0;
+}
+
+#carousel img {
+    width: 100%;
+    height: auto;
+}
+
 .fill-screen {
     min-height: 900px;
     background-attachment: fixed;
