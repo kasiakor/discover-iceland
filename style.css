@@ -34,6 +34,23 @@ body {
     color: white;
 }
 
+#sights p {
+    text-align: center;
+}
+.text-banner {
+    margin: 40px 20px;
+}
+
+.text-banner h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.text-banner p {
+    font-size: 20px;
+}
+
 #carousel {
     margin: 40px 0;
 }
